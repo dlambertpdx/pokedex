@@ -15,7 +15,7 @@ class App extends Component {
         fetch(url)
             .then(response => response.json())
             .then(data => {
-                pokeList = new PokeList({ poke: data });
+                pokeList = new PokeList({ pokemon: data });
                 pokeListDOM = pokeList.renderDOM();
                 const pokeDex = dom.querySelector('.list-section');
                 pokeDex.appendChild(pokeListDOM);
