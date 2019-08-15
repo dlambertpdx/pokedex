@@ -3,6 +3,10 @@
     flex-wrap: wrap;
 }
 
+.pokemon-name {
+    text-transform: capitalize;
+}
+
 .poke-item {
     display: flex;
     flex-direction: column;

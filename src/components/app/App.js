@@ -9,7 +9,7 @@ class App extends Component {
         const headerDOM = header.renderDOM();
         dom.prepend(headerDOM);
 
-        const url = 'https://alchemy-pokedex.herokuapp.com/api/pokedex';
+        const url = 'https://alchemy-pokedex.herokuapp.com/api/pokedex?page=1&perPage=24';
         let pokeList;
         let pokeListDOM;
         fetch(url)

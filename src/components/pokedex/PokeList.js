@@ -16,7 +16,7 @@ class PokeList extends Component {
 
     renderHTML() {
         return /*html*/`
-            <ul class="cats"></ul>
+            <ul class="poke"></ul>
         `;
     }
 }

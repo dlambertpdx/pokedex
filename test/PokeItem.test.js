@@ -42,7 +42,7 @@ test('test name', assert => {
 
     const expected = /*html*/ `
                 <li class="poke-item">
-                    <h3>pichu</h3>
+                    <h3 class="pokemon-name">pichu</h3>
                     <div class="image-container">
                         <img src="http://assets.pokemon.com/assets/cms2/img/pokedex/full/172.png" alt="pichu">
                     </div>
