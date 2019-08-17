@@ -26,8 +26,8 @@ class Search extends Component {
         const search = hashStorage.get().search || '';
         return /*html*/`
             <form>
-                <input name="search" value="${search}">
-                <button>🔍</button>
+                <input name="search" value="${search}" placeholder="Search Pokedex">
+                <button class="search">🔍</button>
             </form>    
         `;
     }
