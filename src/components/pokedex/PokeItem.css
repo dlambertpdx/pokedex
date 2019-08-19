@@ -4,13 +4,26 @@
     font-family: 'Livvic', sans-serif;
     font-weight: bold;
     padding-bottom: 5px;
+    color: white;
+}
+
+a {
+    text-decoration: none;
+}
+
+.stats {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    color: white;
+    font-size: 1em;
 }
 
 .poke-item {
     text-align: center;
     align-items: center;
-    justify-content: space-between;
-    height: 200px;
+    justify-content: space-around;
+    height: 220px;
     padding: 10px;
     border: 1px solid #393131;
     background-color:#8b8b8b;
@@ -20,7 +33,7 @@
 }
 
 .image-container {
-    height: 60%;
+    height: 55%;
 }
 
 .image-container img {

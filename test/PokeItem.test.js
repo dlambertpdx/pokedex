@@ -42,10 +42,16 @@ test('test name', assert => {
 
     const expected = /*html*/ `
                 <li class="poke-item">
+                <a class="pokemon-name" href="http://www.pokemon.com/us/pokedex/pichu" target="_blank">
                     <h3 class="pokemon-name">pichu</h3>
+                </a>
                     <div class="image-container">
                         <img src="http://assets.pokemon.com/assets/cms2/img/pokedex/full/172.png" alt="pichu">
                     </div>
+                    <ul class="stats-container">
+                        <li class="stats">Attack: 40</li>
+                        <li class="stats">Defense: 15</li>
+                    </ul>
                 </li>
                 `;
 

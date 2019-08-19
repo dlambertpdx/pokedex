@@ -5,7 +5,7 @@ class Header extends Component {
         return /*html*/`
         <header>
             <img src="../../../assets/slowbro.png" alt="slowbro">
-            <h1>Pokedex</h1>
+            <a href="../../../index.html"><h1>Pokedex</h1></a>
         </header>
         `;
     }
